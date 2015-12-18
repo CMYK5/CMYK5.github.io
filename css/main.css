@@ -102,6 +102,7 @@ img {
     display: block;
     margin-left: auto;
     margin-right: auto;
+    margin-top: 5%;
 }
 a {
     color: black;
@@ -110,12 +111,8 @@ a {
 .fa {
     padding: 20px;
 }
-.hamburger {
-    display: none;
-}
-.menu {
-    display: none;
-}
+
+
 footer {
     position: absolute;
     bottom: 0;
@@ -205,36 +202,9 @@ footer {
    ========================================================================== */
 
 @media only screen and (max-device-width: 550px) {
-        footer {display: none;}
-        .hamburger {
-            display: inline;
-            position: absolute; 
-            top: 3px; 
-            left: 30px;  
-            font-size: 5em;
-
+        img {height: 300px;
         }
-        .menu {
-            position: absolute;
-            top: 0px;
-            left: 0px;
-            float:none;
-            padding:13px;
-            background-color: black;
-            height: 100%;
-            width: 50%;
-        }
-        .hamburger_open {
-            color: white;
-            display: inline;
-            position: absolute; 
-            top: 3px; 
-            left: 30px;  
-            font-size: 5em;
-        }
-        .display{
-            display: inline;
-        }
+        
     }
 
 
