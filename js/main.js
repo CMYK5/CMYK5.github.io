@@ -1,7 +1,7 @@
 //Credit to Lucas Bebber vvvvv 
 
 $(document).ready(function() {
-  var $img = $("img");
+  var $img = $("#cone");
   var data = $img.attr("src");
   var maxErrors = 100;
   var margin = 2200;
@@ -21,10 +21,10 @@ $(document).ready(function() {
   update();
   setInterval(update, 120);
   
-  //$("#name").hover(function() {
-    //$(this).attr("src","img/Sean Murphy obf.png");
-      //}, function() {
-    //$(this).attr("src","img/Sean Murphy.png");
-  //});
+  $("#name").hover(function() {
+    $(this).attr("src","img/Sean Murphy obf.png");
+      }, function() {
+    $(this).attr("src","img/Sean Murphy.png");
+  });
 });
 
