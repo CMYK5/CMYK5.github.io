@@ -1,5 +1,4 @@
 //Credit to Lucas Bebber vvvvv 
-
 $(document).ready(function() {
   var $img = $("#cone");
   var data = $img.attr("src");
@@ -21,10 +20,5 @@ $(document).ready(function() {
   update();
   setInterval(update, 120);
   
-  $("#name").hover(function() {
-    $(this).attr("src","img/Sean Murphy obf.png");
-      }, function() {
-    $(this).attr("src","img/Sean Murphy.png");
-  });
 });
 

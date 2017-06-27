@@ -1,0 +1,16 @@
+@font-face {
+    font-family: 'zxxnoise';
+    src: url('zxx_noise-webfont.woff2') format('woff2'),
+         url('zxx_noise-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'zxxsans';
+    src: url('zxx_sans-webfont.woff2') format('woff2'),
+         url('zxx_sans-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}

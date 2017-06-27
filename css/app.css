@@ -1,0 +1,39 @@
+body {
+	font-family: 'zxxsans', Helvetica, Sans-serif;
+	font-size: 18px;
+}
+img {
+    width: 85%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+a {
+    color: black;
+    text-decoration: none;
+}
+a:hover { 
+    font-family: 'zxxnoise', Times, Serif;
+    color: black;
+
+}
+li {
+	padding-bottom: 15px;
+}
+ul {
+  list-style-type: none;
+}
+#name {
+	font-family: 'zxxnoise', Times, Serif;
+	font-size: 42px;
+}
+#name:hover {
+	font-family: 'zxxsans', Helvetica, Sans-serif;
+	font-size: 42px;
+}
+.row {
+	margin-left: 0;
+}
+#cone {
+	padding-left: 50px;
+}
