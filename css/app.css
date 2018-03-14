@@ -38,6 +38,7 @@ ul {
 	padding-left: 50px;
 }
 #about {
-	padding-top: 200px;
+	padding-top: 50%;
+	padding-bottom: 50%;
 	line-height: 1.6;
 }
