@@ -36,6 +36,7 @@ ul {
 }
 #cone {
 	padding-left: 50px;
+	height: 100%
 }
 #about, #photo {
 	line-height: 1.6;
